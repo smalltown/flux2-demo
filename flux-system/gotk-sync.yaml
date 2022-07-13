@@ -10,8 +10,8 @@ spec:
   ref:
     branch: main
   secretRef:
-    name: united-service-farm-stg
-  url: https://github.com/Sylas-Hsu_txone/flux-demo.git
+    name: flux-system
+  url: https://Sylas-Hsu_txone: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@github.com/Sylas-Hsu_txone/flux-demo.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
